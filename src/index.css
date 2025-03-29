@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Styles spécifiques pour le mode embed dans Notion */
+.notion-embed {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.notion-embed .App {
+  padding: 0;
+  min-height: auto;
+  background-color: transparent;
+}
+
+.notion-embed header,
+.notion-embed footer {
+  display: none;
+}
+
+.notion-embed main {
+  max-width: none;
+}
+
+.notion-embed .bg-white {
+  box-shadow: none;
+}
