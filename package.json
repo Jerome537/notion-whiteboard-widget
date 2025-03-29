@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Un widget de tableau blanc simple et élégant pour Notion avec stylo, gomme et différentes couleurs",
   "private": true,
+  "homepage": "https://jerome537.github.io/notion-whiteboard-widget",
   "dependencies": {
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -10,6 +11,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.4",
+    "gh-pages": "^5.0.0",
     "postcss": "^8.4.12",
     "tailwindcss": "^3.0.24"
   },
@@ -17,7 +19,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -52,6 +56,5 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Jerome537/notion-whiteboard-widget/issues"
-  },
-  "homepage": "https://github.com/Jerome537/notion-whiteboard-widget#readme"
+  }
 }
