@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/notion-whiteboard-widget/static/css/main.09b8b05f.css",
+    "main.js": "/notion-whiteboard-widget/static/js/main.1c09d968.js",
+    "index.html": "/notion-whiteboard-widget/index.html",
+    "main.09b8b05f.css.map": "/notion-whiteboard-widget/static/css/main.09b8b05f.css.map",
+    "main.1c09d968.js.map": "/notion-whiteboard-widget/static/js/main.1c09d968.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.09b8b05f.css",
+    "static/js/main.1c09d968.js"
+  ]
+}
